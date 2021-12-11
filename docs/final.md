@@ -212,5 +212,5 @@ Where the user tries to log in, we will check if the password they entered match
  
  If we had more time, we would definitely introduce some interactive features such as comments on the products in addition to upvotes/downvotes. All users will be able to add comments and respond to other user' comments on a product. We would also like to separate categories such as Sports, Movies, TV shows which currently fall under Entertainment. We could also add more categories like Fashion, Beauty, etc. We would also update the database set up to only allow unique usernames and email addresses, and add encryption for passwords.
  
- We are happy with the way our project turned out and really enjoyed the process of making it.
+ We hope our users enjoy interacting with our app !
 
