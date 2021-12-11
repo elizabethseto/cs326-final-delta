@@ -201,7 +201,7 @@ Where the user tries to log in, we will check if the password they entered match
 
 2. Elizabeth: User interface implementation, worked on the frontend pages HTML/CSS, deployed the app and set up the database on Heroku, got the data to render on the frontend, create account/login implementation, backend implementation of user authentication, designed backend for DBMS, documentation for markdown files
 
-3. Yiming: Worked on frontend pages HTML/CSS
+3. Yiming: Worked on frontend UI Design with HTML/CSS, contributed to some backend implementation/integration, as well as some milestone documentations.   
 
 
 ## Conclusion
