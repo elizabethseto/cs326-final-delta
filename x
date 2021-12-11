@@ -1,0 +1,2 @@
+https://<>/viewPage?page=home
+

@@ -75,7 +75,22 @@ If you click on 'Add Item' on the ratings page, you will be able to create your 
 ![Poll](Final_Screenshots/FoodPoll.png)
 
 
-APIs: A final up-to-date list/table describing your application’s API // TODO by @elizabethseto
+APIs: 
+All API endpoints are located in server/app.js
+* POST: /api/:createUser
+This call gets all of the user's data and creates an account for them.
+* POST: /api/:login
+This call gets user information from the database once user enters credentials and log in.
+* POST: /api/:addProduct
+This call adds a product that an user enters.
+* GET: /api/: productInfo
+This call gets all of a product's information such as name and details about it.
+* GET: /api/: productSummary
+This call list the summary of the products.
+* POST: /api/:upvote
+This call is used to have user upvote.
+* POST: /api/:downvote
+This call is used to have user downvote.
 
 ## Database
 
@@ -141,12 +156,11 @@ https://wevote326.herokuapp.com/viewPage?page=entertainmentProductPage&name=Aven
 Authentication/Authorization: Upon login, the user has immediate access which allows them to creating polls and rating items. Their account cannot be accessed by any other user, as it is not sharable, and the user is the only individual that can access their account. 
 
 
-
 ## Division of Labor
 
 1. Nisarga: Designed the wireframes for the app, Worked on the frontend pages HTML/CSS, Wrote the content for markdown files, Deployed the app and set up the database on Heroku, Worked on the backend for DBMS
 
-2. Elizabeth: Worked on the frontend pages HTML/CSS, deployed the app and set up the database on Heroku, got the data to render on the frontend, create account/login implementation, designed backend for DBMS
+2. Elizabeth: User interface implementation, worked on the frontend pages HTML/CSS, deployed the app and set up the database on Heroku, got the data to render on the frontend, create account/login implementation, backend implementation of user authentication, designed backend for DBMS, documentation for markdown files
 
 3. Yiming: Worked on frontend pages HTML/CSS
 
