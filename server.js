@@ -93,7 +93,7 @@ function addUserCallback(res, name) {
 
 async function addUser(res, name, pw, email, id) {
     try {
-        const db_result = db.none('insert into users (name, password, email, id) values ($1, $2, $3, $4)', [name, pw, email, id])
+        const db_result = db.none('insert into users (name, password, email, id) values ($1, $2, $3, $4) limit 1', [name, pw, email, id])
             .then(function (result) {
                 addUserCallback(res, name);
             })
