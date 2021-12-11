@@ -21,7 +21,7 @@ WeVote App will be helpful for the users who are looking for new places to trave
 
 ## User Interface
 
-Our UI has fpur main compoments: Home Page, Rating Pages, Product Pages, Create Poll Page
+Our UI has four main compoments: Home Page, Rating Pages, Product Pages, Create Poll Page
 
 ### Home Page
 
@@ -108,18 +108,48 @@ Here's the description of our database:
          Nisarga | cs326    | nisarga@gmail.com | rwe2f90-f25b-4a2b-b261-03057292938b
 
 
-URL Routes/Mappings: A final up-to-date table of all the URL routes that your application supports and a short description of what those routes are used for. You should also indicate any authentication and permissions on those routes.  // TODO by @elizabethseto
+URL Routes/Mappings: 
+https://wevote326.herokuapp.com/
+* This is the main login page and is where create account button and user login button are located on the top of the website. Users won't be allowed to vote if they do not have an account.
+* This page is also accessed when a user hits log out on the navigation bar.
+https://wevote326.herokuapp.com/viewPage?page=createAccount
+* This is where the user makes an account and fill out the fields in order to create the account.
+https://wevote326.herokuapp.com/viewPage?page=login
+* This is where the user logins with their credentials.
+https://wevote326.herokuapp.com/viewPage?page=foodRatePage
+* This is the food rate page. This is where all the food items that are already created and users can rate each food by the upvote and downvote button.
+* If you press view, it will take you to a different page where it will display additional details about the food.
+https://wevote326.herokuapp.com/viewPage?page=foodCreatePoll
+* This is where you enter the food that you want other users to rate. Users can upload a photo of the food, write the name of the food, and details about it.
+https://wevote326.herokuapp.com/viewPage?page=foodProductPage&name=Burger
+* This is one of the individual food item with all the details listed about the food. It displays the name of the food, a picture, details about the food, and number of upvotes and downvotes. 
+https://wevote326.herokuapp.com/viewPage?page=travelRatePage
+* This is the travel rate page. This is where all the locations that are already created and users can rate each location by the upvote and downvote button.
+* If you press view, it will take you to a different page where it will display additional details about that particular location.
+https://wevote326.herokuapp.com/viewPage?page=travelCreatePoll
+* This is where you enter the location that you want other users to rate. Users can upload a photo of the location, write the name of the location, and details about it.
+https://wevote326.herokuapp.com/viewPage?page=travelProductPage&name=Paris
+* This is one of the locations with all the details listed about the location. It displays the name of the location, a picture, details about the location, and number of upvotes and downvotes. 
+https://wevote326.herokuapp.com/viewPage?page=entertainmentRatePage
+* This is the entertainment rate page. This is where all the entertainment items that are already created and users can rate each entertainment by the upvote and downvote button.
+* If you press view, it will take you to a different page where it will display additional details about the food.
+https://wevote326.herokuapp.com/viewPage?page=entertainmentCreatePoll 
+* This is where you enter the particular entertainment that you want other users to rate. Users can upload a photo of the entertainment, write the name of the entertainment, and details about it.
+https://wevote326.herokuapp.com/viewPage?page=entertainmentProductPage&name=Avengers 
+* This is one of the movies with all the details listed about the it. It displays the name of the movie, a picture, details about the movie, and number of upvotes and downvotes. 
 
-Authentication/Authorization: A final up-to-date description of how users are authenticated and any permissions for specific users (if any) that you used in your application. You should mention how they relate to which UI views are accessible.  // TODO by @elizabethseto
+Authentication/Authorization: Upon login, the user has immediate access which allows them to creating polls and rating items. Their account cannot be accessed by any other user, as it is not sharable, and the user is the only individual that can access their account. 
+
+
 
 ## Division of Labor
 
 1. Nisarga: Designed the wireframes for the app, Worked on the frontend pages HTML/CSS, Wrote the content for markdown files, Deployed the app and set up the database on Heroku, Worked on the backend for DBMS
 
-2. Elizabeth:
+2. Elizabeth: Worked on the frontend pages HTML/CSS, deployed the app and set up the database on Heroku, got the data to render on the frontend, create account/login implementation, designed backend for DBMS
 
-3. Yiming: 
+3. Yiming: Worked on frontend pages HTML/CSS
 
 
-Conclusion: A conclusion describing your team’s experience in working on this project. This should include what you learned through the design and implementation process, the difficulties you encountered, what your team would have liked to know before starting the project that would have helped you later, and any other technical hurdles that your team encountered. // TODO by @elizabethseto
+Conclusion: Overall, the whole process of creating this project was definitely a learning experience. It involved a lot of trial and errors, but it was worth it. Throughout the design and implementation process, we discussed as a team what would be best for the format of the website and updated based on what we thought was best. After having a solid outline of what the design of the website would look like, we started to code. One important concept that we learned throughout the process is to communicate clearly about what is needed to get each part of the project done. It was difficult at the beginning because some of us never worked on a programming group project before, therefore, it was a very new experience. In terms of technical hurdles that we encountered, getting the Postgres database set up was difficult. After receiving help from the TAs and doing more research, we overcame the issue and were able to set up the database. In conclusion, we are very glad the way the project turns out and really enjoyed the process of making it.
 
