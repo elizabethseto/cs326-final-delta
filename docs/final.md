@@ -162,7 +162,7 @@ Authentication/Authorization: Upon login, the user has immediate access which al
 
 2. Elizabeth: User interface implementation, worked on the frontend pages HTML/CSS, deployed the app and set up the database on Heroku, got the data to render on the frontend, create account/login implementation, backend implementation of user authentication, designed backend for DBMS, documentation for markdown files
 
-3. Yiming: Worked on frontend pages HTML/CSS
+3. Yiming: Worked on frontend UI Design with HTML/CSS, contributed to some backend implementation/integration, as well as some milestone documentations.   
 
 
 Conclusion: Overall, the whole process of creating this project was definitely a learning experience. It involved a lot of trial and errors, but it was worth it. Throughout the design and implementation process, we discussed as a team what would be best for the format of the website and updated based on what we thought was best. After having a solid outline of what the design of the website would look like, we started to code. One important concept that we learned throughout the process is to communicate clearly about what is needed to get each part of the project done. It was difficult at the beginning because some of us never worked on a programming group project before, therefore, it was a very new experience. In terms of technical hurdles that we encountered, getting the Postgres database set up was difficult. After receiving help from the TAs and doing more research, we overcame the issue and were able to set up the database. In conclusion, we are very glad the way the project turns out and really enjoyed the process of making it.
